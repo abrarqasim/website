@@ -17,7 +17,7 @@
     <div id="toolbar">
       <div class="toolabar_in">
         <div id="logo"><a href="#">
-          <img src="http://t3.gstatic.com/images?q=tbn:ANd9GcRYCn4sbfQjfXP1RNJphtNxgeBSltxzJqfzJbfW_BHbTxKY_7JK4g" alt="Smiley face"></a>
+          <img src="images/bgl.jpg" alt="Smiley face"></a>
         </div>
           <ul class="menu_links">
                <li class="current"><a href="#about">About</a></li>
