@@ -1,4 +1,4 @@
- <!doctype html>
+  <!doctype html>
 <html lang="en-US">
 <head>
   <meta charset="utf-8">
@@ -43,7 +43,7 @@
       <h1 class="work">Abrar Qasim</h1>
       <p class="description">User Interface Designer with a passion for designing beautiful and functional user experiences. Minimalist who believes that less is more.</p>
       <br>
-      <a href="https://twitter.com/Shah__Qasim" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @Shah__Qasim</a>
+ <!--     <a href="https://twitter.com/Shah__Qasim" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @Shah__Qasim</a> -->
     </div>
 
     <div class="image_content">
