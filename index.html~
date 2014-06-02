@@ -11,13 +11,13 @@
  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 </head>
 
-<body onload="document.body.classList.add('loaded')">
+<body>
   <div id="main">
   
     <div id="toolbar">
       <div class="toolabar_in">
-        <div id="logo"><a href="#">
-          <img src="images/bgl.jpg" alt="Smiley face"></a>
+        <div id="logo"><a href="index.html">
+          <img src="images/logo.png" alt="Smiley face"></a>
         </div>
           <ul class="menu_links">
                <li class="current"><a href="#about">About</a></li>
@@ -51,7 +51,7 @@
     </div>
 
     <div class="right_content">
-      <h1 class="work">&lt;coder&gt;</h1>
+      <h1 class="work">Coder</h1>
       <p class="description">Front End Developer who focuses on writing clean, elegant and efficient code. Love HTML5, CSS3, WordPress  and a touch of jQuery.</p>
     </div>
 
@@ -61,8 +61,8 @@
 
     <div id="footer">
     <div class="footer_in">
-				<p class="left">&copy; 2014<a href="http://abrarqasim.com"> Tech Freaks</a> All Rights Reseverd
-        <p class="right">Designed and Maintained by <a href="http://abrarqasim.com">Abrar Qasim</a> </p>
+				<p class="left">&copy; 2014<a href="index.html"> Abrar Qasim</a> All Rights Reseverd
+        <p class="right">Designed and Maintained by <a href="http://abrarqasim.com">Shannzy</a> </p>
     </div>
 	</div>
 
