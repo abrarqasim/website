@@ -1,4 +1,4 @@
-  <!doctype html>
+ <!doctype html>
 <html lang="en-US">
 <head>
   <meta charset="utf-8">
@@ -47,7 +47,7 @@
     </div>
 
     <div class="image_content">
-      <img id="author" src="images/bgl.png" alt="Smiley face"> 
+      <img id="author" src="images/bgl.PNG" alt="Smiley face"> 
     </div>
 
     <div class="right_content">
