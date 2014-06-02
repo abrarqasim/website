@@ -3,9 +3,6 @@
 /* CSS Document */
 
 
-.loaded {
-   opacity : 1;
-}
 
 
 *, ul {
@@ -25,8 +22,7 @@ body {
 	font: inherit;
 	vertical-align: baseline;
 	outline: none;*/
-    opacity : 0;
-    transition : opacity 2s ease; 
+
 
 
 
@@ -115,7 +111,7 @@ p.description {
 
 	max-width:100%;
 	height: auto;
-	  -webkit-filter: brightness(100%);
+	  -webkit-filter: brightness(95%);
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
        -o-transition: all 1s ease;
@@ -123,7 +119,7 @@ p.description {
           transition: all 1s ease; 
 }
 .image_content img:hover{
-	-webkit-filter: brightness(50%);
+	-webkit-filter: brightness(110%);
 }
 
 
@@ -132,40 +128,41 @@ div#logo {
 	width: 80px;
 	float: left;
 	padding:1.5% 1% 1% 1%;
-		background-color:green;
+	background-color:transparent;
 
 }
-div#logo:hover{
-			transition: all 1s ease-in;
-	-webkit-transition: all ease-in 1s;
-    -moz-transition: all ease-in 1s;
-    -o-transition: all ease-in 1s;
-	opacity:20;
 
-}
 
 #logo img {
 	max-width: 100%;
+	-webkit-filter: brightness(100%);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease; 
 }
-
+#logo img:hover {
+		-webkit-filter: brightness(150%);
+}
 #toolbar ul.menu_links{
 	float: left;
 	display: inline;
-	margin-left:5%;
-	padding: 38px 18% 0 0;
+	margin-left: 5%;
+	padding: 2.8% 18.5% 0 0;
 	list-style: none;
 }
 
 #toolbar
 {	
-		transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
 	-webkit-transition: all ease-in 0.2s;
-    -moz-transition: all ease-in 0.2s;
-    -o-transition: all ease-in 0.2s;
+	-moz-transition: all ease-in 0.2s;
+	-o-transition: all ease-in 0.2s;
 	margin-bottom: 0.5%;
 	background-color:000;
 	border-bottom:7px solid green;
-	height: 111px;
+	height: 83px;
 	
 }
 
@@ -208,19 +205,24 @@ ul.social_links a {
 	position:relative;
 	padding:10px 15px;
 	cursor: pointer;
+	transition: all 0.1s ease-in;
+	-webkit-transition: all ease-in 0.1s;
+    -moz-transition: all ease-in 0.1s;
+    -o-transition: all ease-in 0.1s;
 	}
 .menu_links li:hover , .menu_links .current {
 	
 	border-top-style:outset;
 	border-top-left-radius:5px;
 	border-top-right-radius:5px;
-	border-top-color:#000;
-	background-color:#3CC;
+	border-top-color:green;
+	background-color:#CCC;
 		transition: all 0.2s ease-in;
 	-webkit-transition: all ease-in 0.2s;
     -moz-transition: all ease-in 0.2s;
     -o-transition: all ease-in 0.2s;
 }
+
 
 ul.social_links {
 	display: inline-block;
@@ -233,20 +235,19 @@ ul.social_links li a {
 	padding: 0 15px;
 }
 ul.social_links li a:hover {
-    -webkit-transition: all 0.5s cubic-bezier(0.680, -0.550, 0.265, 1.550);
-    -o-transition: all 0.5s cubic-bezier(0.680, -0.550, 0.265, 1.550);
-    -ms-transition: all 0.5s cubic-bezier(0.680, -0.550, 0.265, 1.550);
-    -moz-transition: all 0.5s cubic-bezier(0.680, -0.550, 0.265, 1.550);
-    transition: all 0.5s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+		transition: all 0.2s ease-in;
+	-webkit-transition: all ease-in 0.2s;
+    -moz-transition: all ease-in 0.2s;
+    -o-transition: all ease-in 0.2s;
 		opacity:1;
 	border-bottom-style:outset;
 	border-bottom-left-radius:20px;
 	border-bottom-right-radius:20px;
-	border-bottom-color:#000;
+	border-bottom-color:#C0F;
 	border-top-style:outset;
 	border-top-left-radius:20px;
 	border-top-right-radius:20px;
-	border-top-color:#000;
+	border-top-color:#060;
 }
 
 #toolbar ul.menu_links li a {
@@ -255,11 +256,12 @@ ul.social_links li a:hover {
     -moz-transition: all ease-in 0.2s;
     -o-transition: all ease-in 0.2s;
 	text-decoration:none;
-	color:#606;
+	color:black;
+	text-shadow:#F03;
 	font-size:large;
 
 }
-#toolbar ul.menu_links li a:hover {
+
 
 
 
@@ -318,35 +320,93 @@ ul.social_links li a:hover {
 	text-decoration:line-through;
 }
 
-@media screen and (max-width: 1000px) {
-    body {
-		font-family: 'sans-serif';
-        background-size: inherit;
-        
-    }
-	#toolbar ul li {
-		text-align:center;
-	display:block;
-	margin-right: -4px;
-	position:relative;
-	padding:10px 0px 10px 30px;
-	cursor: pointer;
-    }
-#toolbar ul.menu_links{
-	float: left;
-	display: inline;
-	margin-left:5%;
-	padding: 38px 10% 0 0;
-	list-style: none;
-}}
-@media screen and (max-width: 500px) {
-#toolbar ul.menu_links{
-	float: left;
 
-	margin-left:0%;
-	padding: 38px 10% 0 0;
-	list-style: none;
+@media screen and (max-width: 600px) {
+
+	body {
+		background-color:#CF3;
+		}
+#toolbar {
+
+	margin-bottom: 0%;
+	border-bottom: 0px none;
+	height: 0%;
+	}		
+#toolbar .ul .li{
+		padding:0% 0% 0% 0%;
+		}
+#toolbar ul.menu_links {
+	
+	display: inline;
+	margin-left: 12.5%;
+	padding: 0px 0px 0px 0px;
+	list-style:none;
+	}
+#toolbar ul.menu_links li {
+	display:block;
+	margin-top:10px;
+	text-align:center;
+	padding:0px 0px;
 }
+.menu_links li:hover , .menu_links .current {
+		border-top-style: outset;
+		border-bottom-style: outset;
+		border-bottom-color: rgb(7, 190, 7);
+		border-top-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+		border-bottom-left-radius: 5px;
+		border-top-right-radius: 5px;
+		border-top-color: green;
+		background-color:#3F9;
+		transition: all 0.2s ease-in;
+		-webkit-transition: all ease-in 0.2s;
+		-moz-transition: all ease-in 0.2s;
+		-o-transition: all ease-in 0.2s;
+}
+.menu_links {
+		display:block;
+	position:relative;
+	width:100%;
+	padding:0px;
+	margin:0 auto !important;
+	text-align: center;
+	line-height:19px !important;
+	}
+/*SOCIAL LINK COLOR*/
+ul.social_links li:nth-child(1) a {
+	color: #F60;
+}
+ul.social_links li:nth-child(2) a {
+color: #3B5998;
+}
+ul.social_links li:nth-child(3) a {
+color: #4099FF;
+}
+ul.social_links li:nth-child(4) a {
+color: #D34836;
+}
+ul.social_links li:nth-child(5) a {
+color: #4183C4;
+}
+
+ul.social_links li a:hover {
+	border-bottom-style:outset;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	border-bottom-color:#060;
+	border-top-style:none;
+	}
+
+ul.social_links {
+	margin-left:10%;
+}
+div.social li {
+	font-size:.7em;
+	list-style: none;
+	display: inline-block;
+}
+#toolbar, #logo, #main, .menu_links {
+		background-color:#CF3;
 
 }
 
